@@ -1,0 +1,358 @@
+
+html 
+{
+    box-sizing: border-box;
+    font-size: 100%
+}
+body 
+{
+    margin: 0;
+    padding: 0;
+    line-height: 1.3;
+    font-family: "Poppins",sans-serif;
+}
+body,html 
+{
+    overflow-x: hidden;
+    width: 100%;
+    height: auto;
+}
+.pageone
+{
+    width: 100%;
+    height: auto;
+}
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+img.imagelogo
+{
+    width: 120px;
+    height: 33px;
+}
+.navbar ul
+{
+    list-style: none;
+    margin-top: 0.5%;
+    width: 54%;
+}
+.navbar ul li
+{
+    cursor: pointer;
+    color: #9e9aa7;
+    font-size: 1rem;
+    font-weight: 900;
+    margin-right: 5%;
+}
+.navbar button
+{
+    margin-right: 5%;
+
+}
+.navbar button a
+{
+    text-decoration: none;
+}
+.navbar button.login a
+{
+    color: #9e9aa7;
+}
+.navbar button.signup a, .pageonecontent button.getstarted a
+{
+    color: #ffffff;
+}
+.navbar button.login
+{
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 1rem;
+    background-color: transparent;
+    border: none;
+}
+.navbar button.signup, .pageonecontent button.getstarted, .pagesix button
+{
+    background-color: #2acfcf;
+    padding: .6rem 1.5rem;
+    border-radius: 1.25rem;
+    font-weight: 700;
+    margin-left: 1rem;
+    margin-top: -7px;
+    width: 10%;
+    text-align: center;
+    border: none;
+    color: #ffffff;
+}
+.navbar button.signup
+{
+    font-size: 17px;
+}
+
+.pageonewordsandpic
+{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+    width: 100%;
+    height: fit-content;
+
+}
+.pageonecontent img
+{
+    margin-top: 10%;
+    margin-right: -10em;
+    height: 27rem;
+    width: 665px;
+}
+.pageonecontent h1
+{
+    margin-top: 4%;
+    font-size: 4.5rem;
+    text-align: left;
+    color: #35323e;
+    line-height: 1.1;
+    letter-spacing: -2px;
+    margin-bottom: 10px;
+    width: 70%;
+}
+.pageonecontent p
+{
+    font-size: 30px;
+    text-align: left;
+    color: #96959d;
+    margin-top: 4px;
+    line-height: 1.7;
+    margin-bottom: 3rem;
+}
+.pageonecontent button.getstarted
+{
+    width: 30%;
+    height: 12%;
+    font-size: 20px;
+}
+.pagetwo
+{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pagetwo .formcontainer
+{
+    background-color: #3b3054;
+    background-image: url(https://react-url-shortening-api-pink.vercel.app/static/media/bg-shorten-mobile.41c34b33.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    border-radius: 15px;
+    width: 67.9%;
+    margin-top: 0rem;
+    margin-bottom: 1.5rem;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    -webkit-user-modify: read-write-plaintext-only;
+    display: flex;
+    flex-direction: row;
+}
+input[type="text"]
+{
+    margin-top: 5%;
+    width: 70%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left:-5% ;
+    border-radius: 5%;
+
+}
+.pagetwo button.shortenbutton
+{
+    background-color: #2acfcf;
+    text-align: center;
+    border: none;
+    color: #ffffff;
+    border-radius: 5%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 17px;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 20%;
+}
+.pagefour
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pagefour .pagefourwords
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 39rem;
+    margin-top: 4.5rem;
+    margin-bottom: 5rem;
+    
+}
+.pagefour .pagefourwords h1
+{
+    display: block;
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: #3b3054;
+}
+
+.pagefourwords p
+{
+    text-align: center;
+    color: #9e9aa7;
+    line-height: 1.7;
+}
+.pagefive
+{
+    padding-bottom: 15%;
+}
+.pagefive, .pagefiveboxes
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.pagefive .pagefiveboxone, .pagefive .pagefiveboxtwo, .pagefive .pagefiveboxthree
+{
+    background-color: #ffffff;
+    border-radius: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.pagefive .pagefiveboxone, .pagefive .pagefiveboxtwo
+{
+    margin-right:3%;
+}
+.pagefive .pagefiveboxtwo
+{
+    margin-top: 10%;
+}
+.pagefive .pagefiveboxthree
+{
+    margin-top: 20%;
+}
+
+.pagefive .pagefiveboxone .pagefiveboxoneimage, .pagefive .pagefiveboxtwo .pagefiveboxtwoimage, .pagefive .pagefiveboxthree .pagefiveboxthreeimage
+{
+ background-color: #3b3054;
+ width: 25%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding-bottom: 5%;
+ padding-top: 5%;
+ border-radius: 50%;
+ margin-top: -7%;
+ margin-left: 10%;
+}
+.pagefive h1
+{
+    color: #3b3054;
+    margin-top: 20px;
+    padding-left: 2%;
+}
+.pagefive p
+{
+    text-align: center;
+    color: #9e9aa7;
+    line-height: 1.7;
+}
+.bottomsection
+{
+    background-color: #f0f1f6;
+}
+.pagesix
+{
+    background-color: #3b3054;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-image: url(https://react-url-shortening-api-pink.vercel.app/static/media/bg-boost-mobile.4b04bd89.svg);
+    background-position: -16px -13px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pagesix h1 
+{
+    color: #fff;
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem;
+}
+.pagesix .pagesixcontent
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pagesix button
+{
+    width: 13%;
+    padding-top: 1.3%;
+    padding-bottom: 1.3%;
+    font-size: 17px;
+}
+.footer 
+{
+    background-color: #232127;
+    margin-top: -2%;
+    color: #f0f1f6;
+}
+.footer .footercontent
+{
+    display: flex;
+    flex-direction: row;
+}
+.footer .footercontent .footerlinkslists
+{
+    display: flex;
+    flex-direction: row;
+    padding-top: 6%;
+}
+.footer .footercontent h1
+{
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+.footerlistone,.footerlisttwo,.footerlistthree
+{
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column ;
+
+}
+.footer ul
+{
+    list-style: none;
+    color: #b8b6b9;
+    padding-left: 0;
+}
+.footerlistone ul li a,.footerlisttwo ul li a,.footerlistthree ul li a
+{
+    color: #b8b6b9;
+    text-decoration: none;
+}
+.footericonlist
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.footericonlist a
+{
+    padding-right: 10%;
+
+}
